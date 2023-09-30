@@ -7,12 +7,6 @@ int main() {
     printf("Combien de notes voulez-vous entrer ? ");
     scanf("%d", &nombreDeNotes);
     
-    
-
-
-
-
-    
     if (nombreDeNotes <= 0) {
         printf("Le nombre de notes doit être supérieur à zéro.\n");
         return 1; 
